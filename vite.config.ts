@@ -5,7 +5,7 @@ import path from 'path';
 
 export default defineConfig({
   plugins: [react()],
-  base: "/cse211-a1-preview/",
+  base: '/cse211-a1-preview/',
   resolve: {
     extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
     alias: {
@@ -54,7 +54,9 @@ export default defineConfig({
     target: 'esnext',
     outDir: 'build',
   },
+
   server: {
+
     port: 3000,
     open: true,
   },
