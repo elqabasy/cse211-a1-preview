@@ -28,7 +28,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build # or ./dist if you haven't changed Vite output
+          publish_dir: ./build
           publish_branch: gh-pages
           user_name: github-actions
           user_email: github-actions@github.com
