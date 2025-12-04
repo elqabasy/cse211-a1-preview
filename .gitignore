@@ -1,0 +1,12 @@
+!.gitignore
+
+
+node_modules/
+build/
+
+.env
+.env.local
+
+
+package-lock.json
+node_modules/.package-lock.json
