@@ -7,10 +7,10 @@ import { ThankYouPage } from './components/ThankYouPage';
 import { CourseCatalogPage } from './components/CourseCatalogPage';
 import { CourseDetailPage } from './components/CourseDetailPage';
 import { StudentDashboardPage } from './components/StudentDashboardPage';
-
+import { HashRouter } from 'react-router-dom';
 export default function App() {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={<AboutPage />} />
@@ -21,6 +21,6 @@ export default function App() {
         <Route path="/course/:id" element={<CourseDetailPage />} />
         <Route path="/dashboard" element={<StudentDashboardPage />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 }
